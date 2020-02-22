@@ -13,7 +13,7 @@ html, body {
 .fundo {
     width: 100%;
     height: 100%;
-    background-color: pink;
+    background-image: url('itens/deploy-27.png');
     
 }
 
@@ -35,18 +35,18 @@ html, body {
     display: none;
 }
 
-.barra.active .logo2{
+.barra.active .logo{
     display: none;
 }
 
-.logo2 {
+.logo {
     margin-left: 30px;
     width: 60px;
     height: 80px;
 
 }
 
-button {
+.menusanduiche {
     position: absolute;
     top: 0;
     left: 50%;
@@ -60,3 +60,99 @@ button {
     color: #db5d74;
 }
 
+.menu1 {
+    width: 500px;
+    background-color: rgba(247, 244, 244, 0.89);
+    height: 100%;
+    
+}
+
+.superior {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo2 {
+    height: 75px;
+
+}
+
+.opcoes {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+a {
+    font-family: 'Quicksand', sans-serif ;
+    text-decoration:none;
+    color: #666666; 
+}
+
+a:hover {
+    font-family: 'Quicksand', sans-serif ;
+    text-decoration:none;
+    color: #666666;
+    font-weight: bolder; 
+}
+
+.sobre {
+    width: 500px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil {
+    height: 300px;
+    padding: 20px;
+}
+
+.sobre p {
+    width: 360px;
+    font-family: 'Quicksand', sans-serif;
+    color: #666666;
+    font-size: 14px;
+    text-align: center; 
+}
+
+.progresso {
+    width: 500px;    
+}
+
+.item {
+    font-family: 'Quicksand', sans-serif;
+    color: #666666;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span {
+    width: 150px;
+    height: 10px;
+    background-color: #f9cace69;
+    display: block;
+
+}
+
+span::before {
+    content: " ";
+    width: 85%;
+    height: 10px;
+    display: block;
+    background: #f9cace;
+}
+
+.menu2 {
+
+}
+
+.menu3 {
+
+}
