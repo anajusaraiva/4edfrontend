@@ -1,0 +1,243 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url('itens/deploy-27.png');
+    
+}
+
+.barra {
+    width: 3%;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    min-height: 100%;
+}
+
+.barra.active {
+    width: 500px;
+    width: 500px;
+    background-color: rgba(247, 244, 244, 0.89);
+    height: 100%;
+
+}
+
+.barra.active .menusanduiche{
+    display: none;
+}
+
+.barra.active .logo{
+    display: none;
+}
+
+.logo {
+    margin-left: 30px;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -30px;
+
+}
+
+.menusanduiche {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+
+}
+
+.material-icons {
+    font-size: 30px;
+    color: #db5d74;
+}
+
+.menu1 {
+    display: none;
+     
+}
+
+.menu1.active {
+    display: block;
+}
+
+.superior {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo2 {
+    height: 75px;
+
+}
+
+.opcoes {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.opcoes a {
+    font-family: 'Quicksand', sans-serif ;
+    text-decoration:none;
+    color: #666666; 
+}
+
+.opcoes a.active {
+    color: #db5d74;
+    font-weight: bolder; 
+}
+
+.opcoes a:hover {
+    font-family: 'Quicksand', sans-serif ;
+    text-decoration:none;
+    color: #db5d74;
+    font-weight: bolder; 
+}
+
+.sobre {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil {
+    height: 350px;
+    padding-top: 20px;
+}
+
+.sobre p {
+    width: 360px;
+    font-family: 'Quicksand', sans-serif;
+    color: #666666;
+    font-size: 14px;
+    text-align: center; 
+}
+
+.progresso {
+    width: 310px;
+    padding: 20px;
+    margin: 0 auto;   
+}
+
+.item {
+    font-family: 'Quicksand', sans-serif;
+    color: #666666;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item p {
+    text-align: left;
+}
+
+span {
+    width: 150px;
+    height: 10px;
+    background-color: #f9cace69;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+span::before {
+    content: " ";
+    width: 85%;
+    height: 10px;
+    display: block;
+    background: #f9cace;
+}
+
+.menu1 h4{
+    font-family: 'Quicksand', sans-serif;
+    color: #666666;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.curriculo {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #db5d74;
+    background: #f9cace;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.menu2 {
+    display: none;
+      
+}
+    
+.menu2.active {
+    display: block;
+}
+
+
+.portfólio {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    margin-top:20px; 
+}
+
+.portfólio a {
+    font-family: 'Quicksand', sans-serif ;
+    text-decoration:none;
+    color: #666666; 
+    margin: 5px;
+    cursor: pointer;
+}
+
+.portfólio a:hover {
+    font-family: 'Quicksand', sans-serif ;
+    text-decoration:none;
+    color: #666666;
+    font-weight: bolder;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+.menu3 {
+    display: none;
+      
+}
+    
+.menu3.active {
+    display: block;
+}
+
+.menu3 h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #666666;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top:20px; 
+    
+}
