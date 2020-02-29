@@ -8,6 +8,7 @@ button.forEach(element => {
 
     element.addEventListener("click", function(e){
 
+        e.preventDefault();
         boxmenu1.classList.remove('active');
         boxmenu2.classList.remove('active');
         boxmenu3.classList.remove('active');
@@ -26,14 +27,30 @@ button.forEach(element => {
         e.target.classList.add('active');
 
 
-
-        // e.target.classList.add('active');
-
-        // const image = document.querySelector(".car");
-
-        // image.setAttribute('src', `imagens/car-${color}.jpg`);
-
     } )
 
 
 });
+
+
+const sanduba = document.querySelector('.menusanduiche');
+
+    sanduba.addEventListener("click", function(e){
+
+        const sandubao = document.querySelector('.barra');
+
+        sandubao.classList.toggle('active')
+
+        
+    })
+
+const sanduba2 = document.querySelector('.xis');
+
+    sanduba2.addEventListener("click", function(e){
+
+        const sandubao2 = document.querySelector('.barra');
+
+        sandubao2.classList.toggle('active')
+
+        
+    })    

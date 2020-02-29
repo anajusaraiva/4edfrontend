@@ -14,22 +14,21 @@ body {
     width: 100%;
     height: 100%;
     background-image: url('itens/deploy-27.png');
+    background-size: contain;
     
 }
 
 .barra {
-    width: 3%;
+    width: 50px;
     background-color: white;
-    display: flex;
     position: absolute;
     min-height: 100%;
 }
 
 .barra.active {
     width: 500px;
-    width: 500px;
     background-color: rgba(247, 244, 244, 0.89);
-    height: 100%;
+    min-height: 100%;
 
 }
 
@@ -39,6 +38,33 @@ body {
 
 .barra.active .logo{
     display: none;
+}
+
+.barra .controlador {
+    display: none;
+}
+
+.barra.active .controlador {
+    display: block;
+    position: relative;
+}
+
+.linha {
+    height: 100%;
+    width: 50px;
+    background-color: rgba(247, 244, 244, 0.89);
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #666666;
+      
+}
+
+.xis {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
 }
 
 .logo {
@@ -73,6 +99,8 @@ body {
 .menu1.active {
     display: block;
 }
+
+
 
 .superior {
     width: 500px;
@@ -130,6 +158,7 @@ body {
     color: #666666;
     font-size: 14px;
     text-align: center; 
+    margin-top: -10px;
 }
 
 .progresso {
@@ -240,4 +269,37 @@ span::before {
     margin-left: 75px;
     margin-top:20px; 
     
+}
+
+@media (max-width: 480px) {
+
+    .barra.active {
+        width: 100%;
+        
+    }
+
+    .sobre {
+        width: 100%;
+    }
+
+    .linha {
+        border: 0;
+        background-color: transparent;
+    }
+
+    .xis {
+        background-color: transparent;
+    }
+
+    .more {
+        width: 100%;
+    }
+
+    .opcoes {
+        width: 100%;
+    }
+
+    body {
+        background-size: contain;
+    }
 }
