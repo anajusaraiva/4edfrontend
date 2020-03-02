@@ -13,7 +13,7 @@
 <body>
     
     <div class="barra">
-                <button class="menusanduiche"><i class="material-icons"> menu </i> </button>
+        <button class="menusanduiche"><i class="material-icons"> menu </i> </button>
         <img src="itens/aklogo3.png" class="logo" alt="Logo ak Design">
     
     <div class="controlador">
@@ -78,7 +78,13 @@
                     </div> 
             </div>
             <h4> Hobbies, Interesses </h4>
-             
+            <div class="icones">
+                <a href="#" class="icone"> <img src="itens/SVG/iconemúsica.svg" title="Música"> </a>
+                <a href="#" class="icone"> <img src="itens/SVG/iconefotografia.svg" title="Fotografia"> </a>
+                <a href="#" class="icone"> <img src="itens/SVG/iconefilme.svg" title="Filme"> </a>
+                <a href="#" class="icone"> <img src="itens/SVG/iconelivro.svg" title="Livro"> </a>
+                <a href="#" class="icone"> <img src="itens/SVG/iconesérie.svg" title="Série"> </a>
+            </div>
             <button class="curriculo"> Confira meu CV completo </button>
 
         </div>
@@ -93,19 +99,29 @@
             </div>
         </div>
         <div class="menu3">
+            <div class="box"> 
             <h3> Gostou do meu trabalho? </h3>
+            <p> Entre em contato: </p>
+            
+            <form action="" method="post">
+
+                <label> Nome</label><br>
+                <input class="nome" type="text" name="nome" required><br>
+            
+                <label> E-mail</label><br>
+                <input class="email" type="email" name="E-mail" required> <br>
+            
+                <label>Mensagem</label><br>
+                <textarea class="mensagem" name="Mensagem"> </textarea> <br>
+                            
+                <button class="submit" type="submit">Enviar</button>
+            </form>
             </div>
+        </div>
  
  
     </div>
     </div> 
-
-    
-    
-
-
-
-
 
     <script src="main.js"></script>
 </body>

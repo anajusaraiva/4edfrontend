@@ -27,7 +27,7 @@ body {
 
 .barra.active {
     width: 500px;
-    background-color: rgba(247, 244, 244, 0.89);
+    background-color: white;
     min-height: 100%;
 
 }
@@ -167,6 +167,18 @@ body {
     margin: 0 auto;   
 }
 
+.icones {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 20px auto;
+    
+}
+.icone img {
+    height: 40px;
+    width: 40px;
+}
+
 .item {
     font-family: 'Quicksand', sans-serif;
     color: #666666;
@@ -201,7 +213,6 @@ span::before {
     font-family: 'Quicksand', sans-serif;
     color: #666666;
     font-weight: bold;
-    padding-top: 20px;
     text-align: center;
 }
 
@@ -262,13 +273,58 @@ span::before {
     display: block;
 }
 
-.menu3 h3 {
+.box h3 {
     font-family: 'Quicksand', sans-serif;
     color: #666666;
     font-weight: bold;
     margin-left: 75px;
     margin-top:20px; 
+    line-height: 30px;
     
+}
+
+.box p {
+    font-family: 'Quicksand', sans-serif;
+    color: #666666;
+    margin-left: 75px;
+        
+}
+
+.box {
+    width: 250px;
+       
+}
+
+form {
+    margin-left: 75px;
+    margin-top:20px;
+}
+
+.submit {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #db5d74;
+    background: #f9cace;
+    padding: 8px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+    color: #666666;
+}
+
+.mensagem {
+width: 170px;
+height: 150px;
+background-color: #f9cace50;
+}
+
+.nome, .email {
+    background-color: #f9cace50;
 }
 
 @media (max-width: 480px) {
