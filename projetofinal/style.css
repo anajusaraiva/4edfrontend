@@ -109,7 +109,7 @@ body {
 }
 
 .logo2 {
-    height: 75px;
+    height: 130px;
 
 }
 
@@ -239,7 +239,7 @@ span::before {
 }
 
 
-.portfólio {
+.portfolio {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -247,7 +247,7 @@ span::before {
     margin-top:20px; 
 }
 
-.portfólio a {
+.portfolio a {
     font-family: 'Quicksand', sans-serif ;
     text-decoration:none;
     color: #666666; 
@@ -255,7 +255,7 @@ span::before {
     cursor: pointer;
 }
 
-.portfólio a:hover {
+.portfolio a:hover {
     font-family: 'Quicksand', sans-serif ;
     text-decoration:none;
     color: #666666;
@@ -357,5 +357,9 @@ background-color: #f9cace50;
 
     body {
         background-size: contain;
+    }
+
+    .logo2 {
+        height: 90px; 
     }
 }
